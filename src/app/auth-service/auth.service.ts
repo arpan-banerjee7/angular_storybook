@@ -17,6 +17,7 @@ export interface AuthResponseData {
 export class AuthService {
   constructor(private http: HttpClient) {}
 
+  //connecting to firebase API
   signup(email: string, password: string) {
     return this.http
       .post<AuthResponseData>(

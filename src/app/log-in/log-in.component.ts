@@ -14,7 +14,7 @@ export class LogInComponent implements OnInit {
   error: string = null;
   constructor(private authService: AuthService, private router: Router) {}
 
-  //reactive form apporach
+  //reactive form approach
   ngOnInit() {
     this.signUpForm = new FormGroup({
       email: new FormControl(null, [Validators.required, Validators.email]),
