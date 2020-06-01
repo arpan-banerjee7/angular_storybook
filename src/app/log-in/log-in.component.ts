@@ -33,7 +33,7 @@ export class LogInComponent implements OnInit {
       (data) => {
         console.log(data);
         this.isLoading = false;
-        this.router.navigate(["/welcome"]);
+        this.router.navigate(["/welcome", "loggedIn"]);
       },
       (errorMessage: any) => {
         console.log(errorMessage);

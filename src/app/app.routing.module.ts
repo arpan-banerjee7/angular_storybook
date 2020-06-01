@@ -8,7 +8,7 @@ const appRoutes: Routes = [
   { path: "", component: LogInComponent },
   { path: "login", component: LogInComponent },
   { path: "signup", component: SignUpComponent },
-  { path: "welcome", component: WelcomeComponent },
+  { path: "welcome/:arg", component: WelcomeComponent },
   { path: "**", redirectTo: "albums" },
 ];
 
