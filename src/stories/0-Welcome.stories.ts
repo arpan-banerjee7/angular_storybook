@@ -10,6 +10,7 @@ import { AppRoutingModule } from "src/app/app.routing.module";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { APP_BASE_HREF } from "@angular/common";
 
+//added all the dependencies to load the sign up component
 storiesOf("SignUp Component", module)
   .addDecorator(
     moduleMetadata({
