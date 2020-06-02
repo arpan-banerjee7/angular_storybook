@@ -23,7 +23,7 @@
     "@angular/router": "^9.0.0",
     "@storybook/addon-a11y": "^5.3.19",
     "@storybook/addon-storysource": "^5.3.19",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "core-js": "^3.1.2",
     "rxjs": "6.3.3",
     "rxjs-compat": "^6.0.0",
