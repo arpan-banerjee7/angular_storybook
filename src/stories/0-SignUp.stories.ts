@@ -13,6 +13,7 @@ import { withA11y } from "@storybook/addon-a11y";
 // //@ts-ignore
 // import markDownNotes from "src/app/sign-up/sign-up.component/sign-upreadme.md";
 
+//this comment is required to ignore the errror
 //@ts-ignore
 import * as markdown from "./notes/sign-up.readme.md";
 
